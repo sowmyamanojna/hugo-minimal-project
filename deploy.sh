@@ -7,10 +7,7 @@ git checkout main
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
-if [ -n "$*" ]; then
-	msg="$*"
-fi
+read -p "Enter 'main' commit message: " msg
 git commit -m "$msg"
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
@@ -32,7 +29,7 @@ sudo rm -r public/
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
+msg="Rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
