@@ -9,6 +9,7 @@ git add .
 # Commit changes.
 read -p "Enter 'main' commit message: " msg
 git commit -m "$msg"
+git push origin main
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
