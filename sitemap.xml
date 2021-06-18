@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sowmyamanojna.github.io/hugo-minimal-project/main/</loc>
+    <loc>https://example.com/main/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://sowmyamanojna.github.io/hugo-minimal-project/main/content/</loc>
+    <loc>https://example.com/main/content/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sowmyamanojna.github.io/hugo-minimal-project/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sowmyamanojna.github.io/hugo-minimal-project/authors/sowmya-manojna/</loc>
+    <loc>https://example.com/authors/uma-maheshwaran/</loc>
   </url><url>
-    <loc>https://sowmyamanojna.github.io/hugo-minimal-project/authors/</loc>
+    <loc>https://example.com/authors/</loc>
   </url>
 </urlset>

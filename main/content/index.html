@@ -10,21 +10,16 @@
 		"> 
     
 	<meta name="author" content=" map[] ">  
-    <base href="https://sowmyamanojna.github.io/hugo-minimal-project/">
+    <base href="https://example.com">
     <title>Index :)</title>
 
    
     
-    <link href="/hugo-minimal-project/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     
 
     
-    
-    <link href="/hugo-minimal-project/css/project.css" rel="stylesheet" type="text/css">
-    
-    
-    
+    <link href="/css/project.css" rel="stylesheet" type="text/css">
     
     
     
@@ -32,7 +27,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
 
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <link href="/css/prism-default.css" rel="stylesheet" type="text/css">
 
 
     
@@ -70,22 +69,8 @@ onload="renderMathInElement(document.body);"></script>
       
       
     <style>
-    .navbar {
-    border-color: #e7e7e7;
-}
-
-.navbar a:link,
-.navbar-default .navbar-nav>li>a {
-  color: #777;
-}
-
-.navbar a:hover,
-.navbar-default .navbar-nav>li>a:hover {
-  color: rgb(51, 51, 51);
-}
-
-body {
-  color: rgb(51, 51, 51);
+    body {
+  color: <no value>;
   /*font-family: 'Frank Ruhl Libre', serif;*/
 }
 
@@ -102,7 +87,7 @@ h6 {
 .header-container h2,
 .header-container h3,
 .header-container h4 {
-  color: rgb(51, 51, 51);
+  color: <no value>;
 }
  
   </style>
@@ -133,11 +118,10 @@ h6 {
 <p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
 <hr>
 <p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
 font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}</code></pre></div>
-
-<h2 id="projects">Projects</h2>
+}
+</code></pre></div><h2 id="projects">Projects</h2>
 <h3 id="goal">Goal</h3>
 <p>Improve my CV by adding new state-of-the-art development skills.</p>
 <h3 id="approach--objectives">Approach &amp; Objectives</h3>
@@ -178,17 +162,17 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 </tbody>
 </table>
 <h2 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
-<section class="footnotes" role="doc-endnotes">
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#289870">&lt;!DOCTYPE html&gt;</span>
+<span style="color:#888">&lt;</span><span style="color:#2838b0">html</span> <span style="color:#388038">lang</span><span style="color:#666">=</span><span style="color:#b83838">&#34;en&#34;</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;</span><span style="color:#2838b0">head</span><span style="color:#888">&gt;</span>
+  <span style="color:#888">&lt;</span><span style="color:#2838b0">meta</span> <span style="color:#388038">charset</span><span style="color:#666">=</span><span style="color:#b83838">&#34;UTF-8&#34;</span><span style="color:#888">&gt;</span>
+  <span style="color:#888">&lt;</span><span style="color:#2838b0">title</span><span style="color:#888">&gt;</span>Example HTML5 Document<span style="color:#888">&lt;/</span><span style="color:#2838b0">title</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;/</span><span style="color:#2838b0">head</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;</span><span style="color:#2838b0">body</span><span style="color:#888">&gt;</span>
+  <span style="color:#888">&lt;</span><span style="color:#2838b0">p</span><span style="color:#888">&gt;</span>Test<span style="color:#888">&lt;/</span><span style="color:#2838b0">p</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;/</span><span style="color:#2838b0">body</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;/</span><span style="color:#2838b0">html</span><span style="color:#888">&gt;</span>
+</code></pre></div><section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
