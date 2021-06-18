@@ -1,16 +1,32 @@
 #!/bin/sh
 
-# If a command fails then the deploy stops
-set -e
+# Need to be in main for building webpage
+git checkout main
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
+fi
+git commit -m "$msg"
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+# Change branch to gh-pages
+# Assumes that there already exists a gh-pages branch
+git checkout gh-pages
 
-# Go To Public folder
-cd public
+# Copy everything from public folder
+cp -r public/* .
+
+# Remove the public/ folder
+sudo rm -r public/
 
 # Add changes to git.
 git add .
@@ -23,4 +39,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin main
+git push origin gh-pages
+
+# Change the branch back
+git checkout main
