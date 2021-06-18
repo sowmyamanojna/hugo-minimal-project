@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://sowmyamanojna.github.io/hugo-minimal-project/"
 languageCode = "en-us"
 title = "Project Name"
 theme = "minimal-project"
