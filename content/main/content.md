@@ -31,27 +31,11 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 
 **N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
-{{< highlight html >}}
+```html
 .emoji {
 font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
 }
-{{< /highlight >}}
-
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-    .nowrap {
-	display: block;
-	margin: 25px 0;
-}
-}
-</style>
-{{< /css.inline >}}
+```
 
 ## Projects
 ### Goal
@@ -94,7 +78,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 ## Code block with Hugo's internal highlight shortcode
 
-{{< highlight html >}}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,5 +89,5 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
   <p>Test</p>
 </body>
 </html>
-{{< /highlight >}}
+```
 

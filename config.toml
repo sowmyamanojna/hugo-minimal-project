@@ -1,6 +1,6 @@
-baseurl = "https://sowmyamanojna.github.io/hugo-minimal-project/"
+baseurl = "https://example.com"
 languageCode = "en-us"
-title = "Loan Default Prediction"
+title = "Project Name"
 theme = "minimal-project"
 enableEmoji = true
 toc = true
@@ -14,6 +14,9 @@ toc = true
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
+  [markup.highlight]
+    codeFences = true
+    style = "lovelace"
 
 # Taxonomies.
 [taxonomies]
@@ -24,104 +27,32 @@ toc = true
 #
 [params]
     # project specific params
-    course_code_session = "MS4610 Project, Fall 2020"
-    course_name =  "Intoduction to Data Analytics"
+    course_code_session = "CS6910 Project, Fall 2020"
+    course_name =  "Interesting Course"
     university = "Indian Institute of Technology Madras"
 
     math = true
     # Specify which directory to take main content from
     mainSections = ["main"]
 
-    # social share links to appear at the end
-    socialShare = true
-    # Sets specific share to appear on posts (default behavior is to appear)
-    socialShareTwitter = true
-    socialShareGoogleplus = true
-    socialShareFacebook = true
-    socialShareReddit = true
-    socialShareLinkedin = true
-    socialShareStumbleupon = true
-    socialSharePinterest = true
-    socialShareEmail = true
-
-    # theme's color scheme
-    first_color ="#f8f8f8"
-    first_border_color ="#e7e7e7"
-    first_text_color ="#333"
-
-    # second_color ="white"
-    second_color ="white"
-    second_text_color ="#333"
-
-    header_color ="#f8f8f8"
-    header_text_color ="rgb(51, 51, 51)"
-
-    header_link_color ="#777"
-    header_link_hover_color ="rgb(51, 51, 51)"
+    # TO control social share buttons, 
+    # Open and edit data/page_sharer.toml :)
 
     # All intro links - pdf, reports, code
-    proposal = true
+    proposal = false
     proposal_image = "img/proposal.png"
     proposal_file = "docs/proposal.pdf"
-    midterm = true
+    midterm = false
     midterm_image = "img/ff_paper_mid_term.png"
     midterm_file = "docs/mid_term.pdf"
     final = false
     final_image = "img/final.png"
     final_file = "docs/final.pdf"
-    code = "https://github.com/sowmyamanojna/Loan-Default-Prediction"
+    demo = true
+    demo_image = "img/demo.png"
+    demo_url = ""
+    code = "https://github.com/sowmyamanojna/hugo-minimal-project/"
     wandb = ""
-
-#
-# Sets Social Media icons to appear and link to your account. Value should be your
-# username unless otherwise noted. Icons appear at the top of the page.
-#
-[social]
-    # Coding Communities
-    github = "sowmyamanojna/Loan-Default-Prediction"
-    gitlab = ""
-    stackoverflow = "" # User Number
-    bitbucket = ""
-    jsfiddle = ""
-    codepen = ""
-    # Visual Art Communities
-    deviantart = ""
-    flickr = ""
-    behance = ""
-    dribbble = ""
-    # Publishing Communities
-    wordpress = ""
-    medium = ""
-    # Professional/Business Oriented Communities
-    linkedin = ""
-    linkedin_company = ""
-    foursquare = ""
-    xing = ""
-    slideshare = ""
-    # Social Networks
-    facebook = ""
-    googleplus = ""
-    reddit = ""
-    quora = ""
-    youtube = ""
-    vimeo = ""
-    whatsapp = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat = ""
-    qq = "" # User ID Number
-    instagram = ""
-    tumblr = ""
-    twitter = ""
-    skype = ""
-    snapchat = ""
-    pinterest = ""
-    telegram = ""
-    vine = ""
-    googlescholar = ""
-    orcid = ""
-    researchgate = ""
-    # Email
-    email = ""
 
 #
 # Adjust privacy settings
