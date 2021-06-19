@@ -14,8 +14,16 @@
       
       <guid>https://sowmyamanojna.github.io/hugo-minimal-project/main/content/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;An example about! 🎉&lt;/p&gt;
-&lt;p&gt;This section defines concisely the basic project frame.&lt;/p&gt;
+&lt;p&gt;This is an example about! 🎉&lt;/p&gt;
+&lt;p&gt;Content about the project can be added here. 😄&lt;/p&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;The theme supports math typesetting through katex.&lt;/p&gt;
+&lt;h3 id=&#34;examples&#34;&gt;Examples&lt;/h3&gt;
+&lt;p&gt;Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p&gt;
 &lt;h2 id=&#34;fun&#34;&gt;Fun&lt;/h2&gt;
 &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
