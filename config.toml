@@ -4,6 +4,7 @@ title = "Project Name"
 theme = "minimal-project"
 enableEmoji = true
 toc = true
+googleAnalytics = "UA-175587743-2"
 
 # Configure the Markdown renderer.
 [markup]
@@ -35,7 +36,7 @@ toc = true
     # Specify which directory to take main content from
     mainSections = ["main"]
 
-    # TO control social share buttons, 
+    # To control social share buttons, 
     # Open and edit data/page_sharer.toml :)
 
     # All intro links - pdf, reports, code
@@ -61,13 +62,6 @@ toc = true
 [privacy]
     [disqus]
       disable = true
-
-    [googleAnalytics]
-      id = "UA-175587743-2"
-      disable = false
-      anonymizeIP = true
-      respectDoNotTrack = true
-      useSessionStorage = true
 
     [instagram]
       disable = false

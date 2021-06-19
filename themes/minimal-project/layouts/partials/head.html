@@ -45,16 +45,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {{ $ga := site.Params.marketing.google_analytics | default site.GoogleAnalytics | default "" }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{$ga}}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', '{{$ga}}');
-    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics Internal from HUGO-->
+    {{ template "_internal/google_analytics.html" . }}
 
 
     <!-- Add kaTeX -->
