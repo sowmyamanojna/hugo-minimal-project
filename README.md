@@ -1,9 +1,9 @@
 # Minimal Project
 A  minimal theme for project pages.  
 
-Inspired by [Implicit Image COmpression Project page](https://varun19299.github.io/implicit-image-compression/).
+Inspired by [Implicit Image Compression Project page](https://varun19299.github.io/implicit-image-compression/).
 
-Based on [OneDly](https://github.com/cdeck3r/OneDly-Theme).
+Based on [OneDly](https://github.com/cdeck3r/OneDly-Theme), [Hugo Book](https://github.com/alex-shpak/hugo-book) and [Wowchemy Academic](https://github.com/wowchemy/starter-academic).
 
 The theme supports:
 - code highlight
@@ -11,6 +11,8 @@ The theme supports:
 - emojis :smile:
 
 ## Introduction Panel
+The images and files should be placed in the `static/` folder.
+
 Options available:
 - proposal
 - proposal_image
