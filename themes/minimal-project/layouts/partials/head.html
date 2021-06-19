@@ -46,13 +46,14 @@
     <![endif]-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics.id }}"></script>
+    {{ $ga := site.Params.marketing.google_analytics | default site.GoogleAnalytics | default "" }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{$ga}}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ .Site.Params.googleAnalytics.id }}');
+      gtag('config', '{{$ga}}');
     </script>
 
 
