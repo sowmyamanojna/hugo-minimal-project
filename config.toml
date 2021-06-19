@@ -59,29 +59,30 @@ toc = true
 # See: https://gohugo.io/about/hugo-and-gdpr/
 #
 [privacy]
-    [privacy.disqus]
+    [disqus]
       disable = true
 
-    [privacy.googleAnalytics]
-      disable = true
+    [googleAnalytics]
+      id = "UA-175587743-2"
+      disable = false
       anonymizeIP = true
       respectDoNotTrack = true
       useSessionStorage = true
 
-    [privacy.instagram]
+    [instagram]
       disable = false
       simple = true
 
-    [privacy.twitter]
+    [twitter]
       disable = false
       enableDNT = true
       simple = true
 
-    [privacy.vimeo]
+    [vimeo]
       disable = true
       simple = true
 
-    [privacy.youtube]
+    [youtube]
       disable = false
       privacyEnhanced = true
 
