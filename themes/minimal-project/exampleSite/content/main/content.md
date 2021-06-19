@@ -53,9 +53,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 ```
 
 ## Projects
-### Goal
-
-Improve my CV by adding new state-of-the-art development skills.
+A small summary of the project.
 
 ### Approach & Objectives
 
@@ -76,7 +74,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 #### Blockquote with attribution
 
 > Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+> ~ Rob Pike[^1]
 
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
