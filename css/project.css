@@ -23,40 +23,62 @@ html{
 }
 
 .list-inline {
-	list-style: none;
-	margin-left: -0.5em;
-	margin-right: -0.5em;
-	padding-left: 0;
+  list-style: none;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  padding-left: 0;
 }
 
 .list-inline > li {
-	display: inline-block;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 figure figcaption {
-	/* border: 1px dotted blue; */
-	font-size: .95em;
-    text-align: center;
-	color: midnightblue;
+  /* border: 1px dotted blue; */
+  font-size: .85em;
+  text-align: center;
+  color: slategray;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+figure figcaption h4 {
+  /* border: 1px dotted blue; */
+  font-size: .95em;
+  display: inline;
+  text-align: center;
+  color: midnightblue;
+}
+
+figure {
+  text-align: center;
+}
+
+.hint {
+  border-color: #66bbff;
+  background-color: #eff8ff;
+  border-radius: 0.2em;
 }
 
 .card {
-	width: 130px;
-	height: 195px;
-	position: relative;
-	display: inline-block;
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display: inline-block;
 }
 .card .img-top {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 .card:hover .img-top {
-	display: inline;
+  display: inline;
 }
 
 textarea.textarea-autosize {
@@ -81,7 +103,7 @@ div.col-md-8{
 }
 
 div.small {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 /*https://css-tricks.com/sticky-table-of-contents-with-scrolling-active-states/*/
