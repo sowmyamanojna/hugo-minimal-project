@@ -29,6 +29,7 @@ Features: [code highlight](https://sowmyamanojna.github.io/hugo-minimal-project/
 4. [Slow Customization] Start with copying the `config.toml` file and then customizing it.
     ```
     cp -rf themes/minimal-project/exampleSite/config.toml .
+    cp -rf themes/minimal-project/exampleSite/static/* ./static
     ```
 
     Add files inside the `content/main` folder. As a sample, start with:
@@ -44,6 +45,11 @@ Features: [code highlight](https://sowmyamanojna.github.io/hugo-minimal-project/
     Hello there! Congratulations on getting the site up and running!  :tada:
 
     Start off with a brief description of the project here. :smile:
+    ```
+
+5. View your webpage
+    ```
+    hugo server
     ```
 
 ---
