@@ -14,20 +14,20 @@ The theme supports:
 The images and files should be placed in the `static/` folder.
 
 Options available:
-- proposal
-- proposal_image
-- proposal_file
-- midterm
-- midterm_image
-- midterm_file
-- final
-- final_image
-- final_file
-- demo
-- demo_image
-- demo_url
-- code
-- wandb
+- `proposal`: 
+- `proposal_image`: 
+- `proposal_file`: 
+- `midterm`: 
+- `midterm_image`: 
+- `midterm_file`: 
+- `final`: 
+- `final_image`: 
+- `final_file`: 
+- `demo`: 
+- `demo_image`: 
+- `demo_url`: 
+- `code`: 
+- `wandb`: 
 
 More options can be added. Modify the `intro.html` inside `theme/minimal-project/layout/partial/`.
 
