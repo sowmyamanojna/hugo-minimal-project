@@ -1,5 +1,5 @@
 # Minimal Project
-A  minimal theme for project pages.  
+A  minimal theme for project pages. [Live Demo](https://sowmyamanojna.github.io/hugo-minimal-project/)
 
 Inspired by [Implicit Image Compression Project page](https://varun19299.github.io/implicit-image-compression/).
 
