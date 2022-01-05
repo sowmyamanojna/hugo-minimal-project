@@ -8,7 +8,7 @@ toc = true
 ## About
 This is an example about! :tada:
 
-Content about the project can be added here. :smile:
+A breif description of the project can be added here. :smile:
 
 ## Math
 The theme supports math typesetting through katex.
