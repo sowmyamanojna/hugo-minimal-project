@@ -1,19 +1,24 @@
 # Minimal Project
-A  minimal theme for project pages. [Live Demo](https://sowmyamanojna.github.io/hugo-minimal-project/)
+A  minimal theme for project pages.
 
-Inspired by [Implicit Image Compression Project page](https://varun19299.github.io/implicit-image-compression/).
+Live Demo: [hugo-minimal-project/](https://sowmyamanojna.github.io/hugo-minimal-project/)  
+Features: [code highlight](https://sowmyamanojna.github.io/hugo-minimal-project/#code-block-with-hugos-internal-highlight-shortcode), [inline math](https://sowmyamanojna.github.io/hugo-minimal-project/#math), [emojis :smile:](https://sowmyamanojna.github.io/hugo-minimal-project/#fun)
 
-Based on [OneDly](https://github.com/cdeck3r/OneDly-Theme), [Hugo Book](https://github.com/alex-shpak/hugo-book) and [Wowchemy Academic](https://github.com/wowchemy/starter-academic).
+---
 
-The theme supports:
-- code highlight
-- inline math
-- emojis :smile:
+- Inspired by [Implicit Image Compression Project page](https://varun19299.github.io/implicit-image-compression/).  
+- Based on [OneDly](https://github.com/cdeck3r/OneDly-Theme), [Hugo Book](https://github.com/alex-shpak/hugo-book) and [Wowchemy Academic](https://github.com/wowchemy/starter-academic).
 
-## Introduction Panel
+---
+#### Quick Start
+
+
+---
+#### Customization
 The images and files should be placed in the `static/` folder.
 
 Options available:
+
 - `proposal`: Boolean flag indicating the presence of a project proposal.
 - `proposal_image`: Thumbnail image to be displayed (relative path).
 - `proposal_file`: Link to the file (relative path).
