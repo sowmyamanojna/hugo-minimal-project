@@ -11,7 +11,40 @@ Features: [code highlight](https://sowmyamanojna.github.io/hugo-minimal-project/
 
 ---
 #### Quick Start
+1. Create a new site named quickstart
+    ```
+    hugo new site quickstart
+    cd quickstart
+    git init
+    ```
+2. Add the *minimal-project* theme
+    ```
+    git submodule add https://github.com/sowmyamanojna/hugo-minimal-project.git themes/minimal-project
+    echo theme = \"minimal-project\" >> config.toml
+    ```
+3. [Optional: TLDR] In order to test how the site actuall looks (real quick), copy the contents inside `exampleSite` to the main folder.
+    ```
+    cp -rf themes/minimal-project/exampleSite/* .
+    ```
+4. [Slow Customization] Start with copying the `config.toml` file and then customizing it.
+    ```
+    cp -rf themes/minimal-project/exampleSite/config.toml .
+    ```
 
+    Add files inside the `content/main` folder. As a sample, start with:
+    ```
+    +++
+    title = "Content"
+    description = "Initial project description"
+    date = "2021-01-06"
+    toc = true
+    +++
+
+    ## Hello World
+    Hello there! Congratulations on getting the site up and running!  :tada:
+
+    Start off with a brief description of the project here. :smile:
+    ```
 
 ---
 #### Customization
