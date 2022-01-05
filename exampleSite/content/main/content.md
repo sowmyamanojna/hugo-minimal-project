@@ -76,9 +76,6 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 > Don't communicate by sharing memory, share memory by communicating.</p>
 > ~ Rob Pike[^1]
 
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
 ## Tables
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
@@ -104,3 +101,5 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 ```
 
+## References
+[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
