@@ -14,20 +14,20 @@ The theme supports:
 The images and files should be placed in the `static/` folder.
 
 Options available:
-- `proposal`: 
-- `proposal_image`: 
-- `proposal_file`: 
-- `midterm`: 
-- `midterm_image`: 
-- `midterm_file`: 
-- `final`: 
-- `final_image`: 
-- `final_file`: 
-- `demo`: 
-- `demo_image`: 
-- `demo_url`: 
-- `code`: 
-- `wandb`: 
+- `proposal`: Boolean flag indicating the presence of a project proposal.
+- `proposal_image`: Thumbnail image to be displayed (relative path).
+- `proposal_file`: Link to the file (relative path).
+- `midterm`: Boolean flag indicating the presence of a project midterm report.
+- `midterm_image`: Thumbnail image to be displayed (relative path).
+- `midterm_file`: Link to the file (relative path).
+- `final`: Boolean flag indicating the presence of a project final report.
+- `final_image`: Thumbnail image to be displayed (relative path).
+- `final_file`: Link to the file (relative path).
+- `demo`: Boolean flag indicating the presence of a project demo.
+- `demo_image`: Thumbnail image to be displayed.
+- `demo_url`: Link to a demo video (if any).
+- `code`: Link to Code.
+- `wandb`: Link to WandB project/report.
 
 More options can be added. Modify the `intro.html` inside `theme/minimal-project/layout/partial/`.
 
