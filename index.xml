@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Name</title>
+    <link>https://sowmyamanojna.github.io/hugo-minimal-project/</link>
+    <description>Recent content on Project Name</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sowmyamanojna.github.io/hugo-minimal-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index :)</title>
+      <link>https://sowmyamanojna.github.io/hugo-minimal-project/main/content/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sowmyamanojna.github.io/hugo-minimal-project/main/content/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;This is an example about! 🎉&lt;/p&gt;
+&lt;p&gt;Content about the project can be added here. 😄&lt;/p&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;The theme supports math typesetting through katex.&lt;/p&gt;
+&lt;h3 id=&#34;examples&#34;&gt;Examples&lt;/h3&gt;
+&lt;p&gt;Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p&gt;
+&lt;h2 id=&#34;fun&#34;&gt;Fun&lt;/h2&gt;
+&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
