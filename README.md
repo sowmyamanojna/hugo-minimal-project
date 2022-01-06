@@ -22,7 +22,7 @@ Features: [code highlight](https://sowmyamanojna.github.io/hugo-minimal-project/
     git submodule add https://github.com/sowmyamanojna/hugo-minimal-project.git themes/minimal-project
     echo theme = \"minimal-project\" >> config.toml
     ```
-3. [Optional: TLDR] In order to test how the site actuall looks (real quick), copy the contents inside `exampleSite` to the main folder.
+3. [Optional: TLDR] In order to test how the site actually looks (real quick), copy the contents inside `exampleSite` to the main folder.
     ```
     cp -rf themes/minimal-project/exampleSite/* .
     ```
