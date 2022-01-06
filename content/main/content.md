@@ -62,8 +62,20 @@ A small summary of the project.
 * To enable a software to automatically restart after shutdown / power off
 * To enable resilience by monitoring and restarting software processes remotely
 
-## Coding
-_Source: content taken from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample). File: `markdown-syntax.md`_
+## Code block with Hugo's internal highlight shortcode
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
+```
 
 ## Paragraph
 
@@ -85,21 +97,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     Bob | 27
   Alice | 23
 
-
-## Code block with Hugo's internal highlight shortcode
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
 
 ## References
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
