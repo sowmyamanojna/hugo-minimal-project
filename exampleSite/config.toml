@@ -92,3 +92,7 @@ googleAnalytics = ""
   [services.twitter]
     disableInlineCSS = true
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.48.0"
